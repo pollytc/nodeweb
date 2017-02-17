@@ -28,7 +28,7 @@ class dsEngine:
             self.stop()
 
         if self.status != 0:
-            self._run()
+            return self._run()
         else:
             for d in self.dss:
                 d.exit()
