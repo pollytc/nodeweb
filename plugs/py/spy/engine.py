@@ -9,7 +9,7 @@ class dsEngine:
     status = 1
 
     def start(self):
-        self._run()
+        return self._run()
 
     def _run(self):
         stopds = []
@@ -28,7 +28,7 @@ class dsEngine:
             self.stop()
 
         if self.status != 0:
-            return self._run()
+            self._run()
         else:
             for d in self.dss:
                 d.exit()

@@ -43,7 +43,7 @@ class AnalysisByDB:
                 info['url'] = v
                 self.classing.addK(info['name'], info['identity'])
                 self.fileinfo.addK(info['name'], info)
-            self.netfile.delK(k)
+            # self.netfile.delK(k)
 
         if self.count != 0 and self.status == 1:
             return self.run()
@@ -195,6 +195,10 @@ def dealfile(file):
     rname = str(time.time())
     newf = rname + '.' + basename[1]
     newf = os.path.join(config.copypath, newf)
+    # if os.path.exists(config.copypath) is None:
+    #     print config.copypath
+    #     os.makedirs(config.copypath)
+    # print
     shutil.copy2(file, newf)
     os.remove(file)
     des = desc.Descripe(newf, 2)
