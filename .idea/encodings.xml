@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/public/js/dscanvas-1.2.js" charset="UTF-8" />
+=======
+  <component name="Encoding">
+>>>>>>> 9e4ed763ac450a8950f025c94c42f0f5cea5461a
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -5,6 +5,7 @@ import numpy as np
 import cv2
 import os
 
+
 facep = "perface/data/haarcascades/haarcascade_frontalface_alt.xml"
 eyep = "perface/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
 face_cascade = cv2.CascadeClassifier(facep)
